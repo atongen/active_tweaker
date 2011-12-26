@@ -15,7 +15,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = ActiveTweaker::VERSION
   
-  gem.add_dependency 'activeadmin'
   gem.add_dependency 'compass', '~> 0.12.alpha'
   
 end
