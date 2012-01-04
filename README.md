@@ -1,20 +1,17 @@
 # ActiveTweaker
 
-TODO: Write a gem description
+Tweak ActiveAdmin with various experimental additions.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add to your application's Gemfile:
 
-    gem 'active_tweaker'
+    gem 'activeadmin'
+    gem 'active_tweaker', :git => 'git@github.com:samadhiBot/active_tweaker.git'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install active_tweaker
 
 ## Usage
 
