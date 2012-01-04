@@ -4,7 +4,7 @@ class ActiveTweaker
 
   constructor: ->
     $('.datepicker').datepicker dateFormat: 'yy-mm-dd'
-    $('.datetimepicker').datetimepicker
+    $('.datetimepicker').datetimepicker()
     $('.clear_filters_btn').click ->
       window.location.search = ''
       false

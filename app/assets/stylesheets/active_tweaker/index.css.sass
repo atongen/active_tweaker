@@ -1,41 +1,5 @@
 // Active Admin CSS Styles
 @import active_admin/mixins
 @import active_admin/base
-
-.index_table
-
-  tr.ui-sortable-helper
-    border: 1px solid #e8e8e8
-    background-color: white
-    -webkit-box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.5)
-    -moz-box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.5)
-    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.5)
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90)
-    opacity: 0.9
-  
-  a.sort-handle
-    font-size: 30px
-    font-weight: 900
-    text-decoration: none
-    color: #dddddd
-
-/* css for timepicker
-
-.ui-timepicker-div
-  .ui-widget-header
-    margin-bottom: 8px
-  dl
-    text-align: left
-    dt
-      height: 25px
-      margin-bottom: -25px
-    dd
-      margin: 0 10px 10px 65px
-  td
-    font-size: 90%
-
-.ui-tpicker-grid-label
-  background: none
-  border: none
-  margin: 0
-  padding: 0
+@import sortable_table
+@import timepicker
