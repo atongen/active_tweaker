@@ -3,8 +3,11 @@ jQuery -> new ActiveTweaker
 class ActiveTweaker
 
   constructor: ->
-    $('.datepicker').datepicker
-      dateFormat: 'yy-mm-dd'
+    $('.datepicker').datepicker dateFormat: 'yy-mm-dd'
+    $('.datetimepicker').datetimepicker
+    $('.clear_filters_btn').click ->
+      window.location.search = ''
+      false
     if $('.sort-handle').length
       $('table.index_table tbody').sortable
         axis: 'y'
