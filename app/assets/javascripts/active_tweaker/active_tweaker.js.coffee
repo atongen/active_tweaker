@@ -11,6 +11,7 @@ class ActiveTweaker
       $('table.index_table tbody').sortable
         axis: 'y'
         cursor: 'move'
+        handle: '.sort-handle'
         helper: @rowHelper
         items: 'tr'
         update: @update
