@@ -22,6 +22,6 @@ class ActiveTweaker
     ui
 
   update: (e, ui) =>
-    $.post "#{location.href}/sort", $('table.index_table tbody').sortable('serialize')
+    $.post "#{location.pathname}/sort", $('table.index_table tbody').sortable('serialize')
     $('table.index_table tbody tr').each (i, e) ->
       $(e).removeClass('odd even').addClass(if i % 2 then 'even' else 'odd')
