@@ -16,7 +16,9 @@ module ActiveTweaker
       def sort_collection_on(column)
         collection_action :sort, :method => :post do
           inst = ActiveSupport::Inflector.underscore(resource_class)
-          resource_class.update_all ['position = FIND_IN_SET(id, ?)', params[inst].join(',')], { :id => params[inst] }
+          params[inst].each_with_index do |id, i|
+            resource_class.find(id.to_i).update_attribute :position, i
+          end
           head 200
         end
       end
