@@ -2,8 +2,8 @@
 require File.expand_path('../lib/active_tweaker/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ['Chris Sessions']
-  gem.email         = ['csessions@gmail.com']
+  gem.authors       = ['samadhiBot']
+  gem.email         = ['sessions@samadhiBot.com']
   gem.description   = %q{ActiveTweaker}
   gem.summary       = %q{Tweak ActiveAdmin with various experimental additions}
   gem.homepage      = 'https://github.com/samadhiBot/active_tweaker'
@@ -14,8 +14,9 @@ Gem::Specification.new do |gem|
   gem.name          = 'active_tweaker'
   gem.require_paths = ['lib']
   gem.version       = ActiveTweaker::VERSION
-  
+
   gem.add_dependency 'activeadmin'
   gem.add_dependency 'jquery-rails'
-  
+  gem.add_dependency 'awesome_nested_fields'
+
 end
