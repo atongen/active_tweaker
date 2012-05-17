@@ -1,5 +1,4 @@
 require 'active_admin'
-require 'active_admin_editor'
 require 'awesome_nested_fields'
 require 'chosen-rails'
 require 'jquery-rails'
