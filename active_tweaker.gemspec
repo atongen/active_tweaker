@@ -18,7 +18,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'activeadmin'
   gem.add_dependency 'jquery-rails'
   gem.add_dependency 'awesome_nested_fields'
-  gem.add_dependency 'active_admin_editor'
   gem.add_dependency 'chosen-rails'
 
 end
