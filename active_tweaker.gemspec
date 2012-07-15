@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ['samadhiBot']
   gem.email         = ['sessions@samadhiBot.com']
   gem.description   = %q{ActiveTweaker}
-  gem.summary       = %q{ActiveTweaker adds sortable table rows, awesome_nested_fields, chosen-rails, and bootstrap-wysihtml5-rails to ActiveAdmin}
+  gem.summary       = %q{ActiveTweaker adds easily sortable table rows, awesome_nested_fields, chosen-rails, and bootstrap-wysihtml5-rails to ActiveAdmin}
   gem.homepage      = 'https://github.com/samadhiBot/active_tweaker'
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
