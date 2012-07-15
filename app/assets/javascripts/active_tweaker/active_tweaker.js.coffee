@@ -3,6 +3,7 @@ jQuery -> new ActiveTweaker
 class ActiveTweaker
 
   constructor: ->
+    $('textarea.wysihtml5').wysihtml5()
     $('.datepicker').datepicker dateFormat: 'yy-mm-dd'
     $('.clear_filters_btn').click ->
       window.location.search = ''

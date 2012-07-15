@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ['samadhiBot']
   gem.email         = ['sessions@samadhiBot.com']
   gem.description   = %q{ActiveTweaker}
-  gem.summary       = %q{Tweak ActiveAdmin with various experimental additions}
+  gem.summary       = %q{ActiveTweaker adds sortable table rows, awesome_nested_fields, chosen-rails, and bootstrap-wysihtml5-rails to ActiveAdmin}
   gem.homepage      = 'https://github.com/samadhiBot/active_tweaker'
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
@@ -16,8 +16,10 @@ Gem::Specification.new do |gem|
   gem.version       = ActiveTweaker::VERSION
 
   gem.add_dependency 'activeadmin'
-  gem.add_dependency 'jquery-rails'
   gem.add_dependency 'awesome_nested_fields'
+  gem.add_dependency 'bootstrap-sass'
+  gem.add_dependency 'bootstrap-wysihtml5-rails'
   gem.add_dependency 'chosen-rails'
+  gem.add_dependency 'jquery-rails'
 
 end
