@@ -1,5 +1,17 @@
 // ActiveAdmin styles to selectively override Twitter Bootstrap
 body.admin_namespace
+
+  input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="tel"], textarea
+    font-size: 13px
+    margin: 0
+
+  a.btn
+    color: inherit
+    text-decoration: inherit
+
+  iframe
+    margin-left: 20% !important
+
   span.breadcrumb
     display: inline
     border: none
@@ -7,25 +19,14 @@ body.admin_namespace
     box-shadow: none
     padding-left: 0
 
-  fieldset.inputs
-    .label, .badge
-      color: #5E6469
-      text-shadow: none
-      background-color: transparent
-      font-size: 1.0em
-      color: #5E6469
-      line-height: 18px
-      padding: 12px 0
+  .label, .badge
+    color: #5E6469
+    text-shadow: none
+    background-color: transparent
+    font-size: 1.0em
+    color: #5E6469
+    line-height: 18px
+    padding: 12px 0
 
-    input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="tel"], textarea
-      font-size: 13px
-      margin: 0
-
-    ul.wysihtml5-toolbar li
-      clear: none
-      a
-        color: inherit
-        text-decoration: inherit
-
-    iframe
-      margin-left: 20% !important
+  ul.wysihtml5-toolbar li
+    clear: none
