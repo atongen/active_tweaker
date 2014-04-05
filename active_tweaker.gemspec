@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'activeadmin'
   gem.add_dependency 'awesome_nested_fields'
-  gem.add_dependency 'bootstrap-sass'
+  gem.add_dependency 'bootstrap-sass', '~> 2.3.2'
   gem.add_dependency 'bootstrap-wysihtml5-rails'
   gem.add_dependency 'chosen-rails'
   gem.add_dependency 'jquery-rails'
