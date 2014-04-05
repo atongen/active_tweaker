@@ -21,5 +21,5 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'bootstrap-wysihtml5-rails'
   gem.add_dependency 'chosen-rails'
   gem.add_dependency 'jquery-rails'
-
+  gem.add_dependency 'jquery-ui-rails'
 end
