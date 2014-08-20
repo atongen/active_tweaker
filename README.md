@@ -2,12 +2,16 @@
 
 Tweak ActiveAdmin with various experimental additions.
 
+This is a fork of: https://github.com/samadhiBot/active_tweaker
+
+Meant to address a specific client issue.
+
 ## Installation
 
 Add to your application's Gemfile:
 
     gem 'activeadmin'
-    gem 'active_tweaker', :git => 'git@github.com:samadhiBot/active_tweaker.git'
+    gem 'active_tweaker', github: 'atongen/active_tweaker'
 
 And then execute:
 
